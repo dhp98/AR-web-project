@@ -1,0 +1,30 @@
+AR - Web - Project : -(Dhyey Pandya -dhyeypandya3@gmail.com -8296539218)
+--------------------
+
+
+What is this?
+--------------------
+
+-AR-web -project is one truly amazing mobile friendly web app, which basically shows you stuff like text,images and video of the items recorded on your phones camera 'LIVE' , using Augmented Reality & Virtual Reality Technology. Sounds quite Futuristic right?
+
+What is it made up of?
+----------------------
+
+-This web app is made on MEN (MOngoDb , Express , Node) stack , with Semantic UI backing it as a Frontend warrior.
+-OpenSource Libraries/Frameworks used : AR.js & A-Frame (AR for Web)
+
+Will it be working on every device and browsers?
+-------------------------------------------------
+
+-Uhm how about yes.
+As far as compatibility goes, it works on any browser capable of WebGL + WebRTC, that would be Chrome, Firefox, Edge, and Safari. However, the current version of Chrome for iOS is not supported as of yet.
+
+
+Why use AR.js and A-Frame?
+--------------------------
+
+To boil it down, it’s essentially a Javascript framework acting as a port of ARToolkit, while leveraging other packages like a-frame and three.js. The goal being augmented reality features directly on web browsers without sacrificing performance.
+
+
+
+  

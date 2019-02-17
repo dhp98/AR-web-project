@@ -1,0 +1,39 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <title>AR-web-App</title>
+     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+    
+     <link rel="stylesheet" type="text/css" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
+</head>
+<body>
+<a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
+      	
+      	<a-assets>
+		    <img id="my-image" src="https://images.pexels.com/photos/459793/pexels-photo-459793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+		</a-assets>
+
+      <a-marker preset="hiro">
+                <a-text value="This is description of ABC"></a-text>      		
+      </a-marker>
+      
+      <!-- on scanning item1 text from mongodb thorugh app.js ,will be displayed -->
+      <a-marker type='barcode' value='7'>
+      	<a-text id ="marker1" value="will be set by app.js"></a-text>
+      </a-marker>
+
+      <!-- on scanning item2 image from mongodb thorugh app.js ,will be displayed -->
+	  <a-marker type='barcode' value='9'>
+             <a-image src="#my-image"></a-image>
+      </a-marker>
+      
+      <a-entity camera></a-entity>
+  </a-scene>
+<h4>Made with Passion By Dhyey Pandya</h4>
+</body>
+</html>

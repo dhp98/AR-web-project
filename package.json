@@ -1,0 +1,15 @@
+{
+  "name": "ar-web-app",
+  "version": "1.0.0",
+  "description": "AR web app project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhyey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13"
+  }
+}
