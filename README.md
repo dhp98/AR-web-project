@@ -12,8 +12,8 @@ How does it work and How to use it??
 
 (This Web-App is much useful when used through Mobile Web Browser:)
 
--It scans for Barcodes of 3 items,through your camera.
--While recording through camera after Barcode is Scanned It displays
+- It scans for Barcodes of 3 items,through your camera.
+- While recording through camera after Barcode is Scanned It displays
 - text description of item1.
 - Images floating on your barcode for item2.
 
