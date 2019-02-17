@@ -13,10 +13,10 @@ How does it work and How to use it??
 (This Web-App is much useful when used through Mobile Web Browser:)
 
 1-It scans for Barcodes of 3 items,through your camera.
-2-While recording through camera after Barcode is Scanned It displays:
-	2.1 - text description of that item.
-	2.2 - Images floating on your barcode for next item.
-	2.3 - and it displays a video for other item.
+2-While recording through camera after Barcode is Scanned It displays
+- text description of that item.
+- Images floating on your barcode for next item.
+- and it displays a video for other item.
 
 To USE it:-
 1-Press the 'Lets Go!' Button on Home page ,
