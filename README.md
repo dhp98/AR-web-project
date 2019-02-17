@@ -18,6 +18,6 @@ How does it work and How to use it??
 - Images floating on your barcode for item2.
 
 To USE it:-
--Press the 'Lets Go!' Button on Home page ,
--Bring your Camera infront of a Barcode image -from any of the above images.
+- Press the 'Lets Go!' Button on Home page ,
+- Bring your Camera infront of a Barcode image -from any of the above images.
 
